@@ -1,0 +1,14 @@
+name: ffsds3
+publish_to: none
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  args: ^2.7.0
+  ffi: ^2.2.0
+  usb_gadget: ^0.3.4
+
+dev_dependencies:
+  leancode_lint: ^21.0.0
+  lints: ^6.0.0
