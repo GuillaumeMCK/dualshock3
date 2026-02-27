@@ -34,7 +34,7 @@ packages:
     source: hosted
     version: "0.14.4"
   args:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: args
       sha256: d0481093c50b1da8910eb0bb301626d4d8eb7284aa739614d2b394ee09e3ea04
@@ -77,12 +77,12 @@ packages:
     dependency: transitive
     description:
       name: dart_style
-      sha256: "15a7db352c8fc6a4d2bc475ba901c25b39fe7157541da4c16eacce6f8be83e49"
+      sha256: "6f6b30cba0301e7b38f32bdc9a6bdae6f5921a55f0a1eb9450e1e6515645dbb2"
       url: "https://pub.dev"
     source: hosted
-    version: "3.1.5"
+    version: "3.1.6"
   ffi:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: ffi
       sha256: "6d7fd89431262d8f3125e81b50d3847a091d846eafcd4fdb88dd06f36d705a45"
@@ -109,18 +109,10 @@ packages:
     dependency: "direct dev"
     description:
       name: leancode_lint
-      sha256: d4f83f5031b53ef3244ea3dd22193f6584e4475f0d1b9d7ff4c60987e8a8eba5
+      sha256: "40afb0d660f813edeffeb96fbfe8f9170d029bc7b483618867087796821333bc"
       url: "https://pub.dev"
     source: hosted
-    version: "21.0.0"
-  lints:
-    dependency: "direct dev"
-    description:
-      name: lints
-      sha256: "12f842a479589fea194fe5c5a3095abc7be0c1f2ddfa9a0e76aed1dbd26a87df"
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.1.0"
+    version: "21.0.0+1"
   meta:
     dependency: transitive
     description:
@@ -189,10 +181,10 @@ packages:
     dependency: "direct main"
     description:
       name: usb_gadget
-      sha256: a9db925ad6b47f43de919d8a860560f52320cb428c9f3b6fa2d337bc92fa1a2b
+      sha256: "350321b784ddfae26d3ba10f5b8f9c90ba4307b36dd9c5a2d9e4d594b00ba1e3"
       url: "https://pub.dev"
     source: hosted
-    version: "0.3.4"
+    version: "0.3.5"
   using:
     dependency: transitive
     description:
