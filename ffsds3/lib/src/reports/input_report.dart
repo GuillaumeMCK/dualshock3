@@ -210,19 +210,6 @@ final class InputReport {
     bytes[9] = right.y;
   }
 
-  /// Overrides the entire input report with a new byte array.
-  // set bytes(Uint8List bytes) {
-  //   assert(
-  //     bytes.length == 49 || bytes.length == 48,
-  //     'Input report must be exactly 49 bytes (including Report ID) or 48 bytes (excluding Report ID)',
-  //   );
-  //   if (bytes.length == 48) {
-  //     this.bytes.setAll(0, [1, ...bytes]);
-  //   } else {
-  //     this.bytes.setAll(0, bytes);
-  //   }
-  // }
-
   /// Gets the current left analog stick position.
   ///
   /// Returns: A [Joystick] record with x and y values (0-255).
